@@ -1,0 +1,72 @@
+.wizp-pop-outer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.wizp-pop-outer .wizp-pop-inner iframe{
+    /*min-height: 400px;*/
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.wizp-pop-inner {
+    /*max-width: 860px;*/
+    width: 85% !important;
+    padding: 0 0 0px 0;
+    height: 85% !important;
+    background: transparent;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin: 0;
+}
+.para-text{
+    padding: 2% 2% 0% 2%;
+    font-size: 11px;
+    text-align: center;
+    color: rgb( 18 18 102 );
+    font-family: Arial;
+}
+
+.wizp-cart-custom-message {
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+}
+
+
+.wizp-popup-close {
+    position: absolute;
+    background: border-box;
+    font-size: 13px;
+    border: 1px #fff solid;
+    top: 20px;
+    right: 26px;
+    border-radius: 30px;
+    color: white;
+}
+
+.wizp-popup-open {
+    cursor: pointer; 
+    text-decoration: underline;
+}
+
+.wizp-popup-open:hover {
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:575px) {
+    .para-text{
+        padding: 7% 2% 0% 2%;
+        font-size: 9px;
+    
+    }
+}

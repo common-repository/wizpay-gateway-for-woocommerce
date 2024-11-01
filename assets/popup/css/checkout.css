@@ -1,0 +1,59 @@
+
+img.wz-payment-logo{
+	max-width: 100px;
+    max-height: 30px;
+    padding-top: 5px;
+    border: none !important;
+	vertical-align: bottom;
+	
+}
+
+
+.wizardpay-logo-inline{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.wizardpay-logo-block{
+	display: block;
+	
+}
+
+.wizp-form-row.wizp-form-row-wide h5 {	 
+	font-weight: 600;
+}
+
+
+.wizp-custom-payfields .wizp-row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.wizp-custom-payfields .wizp-row .wizp-col-3{
+	flex: 0 0 auto;
+    width: 25%;
+}
+
+
+.wizp-custom-payfields .wizp-installment1 , 
+.wizp-custom-payfields .wizp-installment2 , 
+.wizp-custom-payfields .wizp-installment3 , 
+.wizp-custom-payfields .wizp-installment4  { 
+	font-size:18px !important; 
+}
+
+
+.storefront-featured-products .featured .wz-widget{
+	display: none;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+	.wizp-custom-payfields .wizp-row .wizp-col-sm-6 {
+	    flex: 0 0 auto;
+	    width: 50%;
+	}
+}
